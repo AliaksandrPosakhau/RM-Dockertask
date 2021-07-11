@@ -1,3 +1,7 @@
+var mocha = new Mocha({
+    reporter: 'mochawesome',
+  });
+
 /** TODO
  * The system receives two params x and y.
  * Implement the logic when z equal to sum of x and y in case if y less than 10
