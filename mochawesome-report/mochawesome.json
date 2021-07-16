@@ -5,9 +5,9 @@
     "passes": 5,
     "pending": 0,
     "failures": 0,
-    "start": "2021-07-11T15:40:56.980Z",
-    "end": "2021-07-11T15:40:56.992Z",
-    "duration": 12,
+    "start": "2021-07-15T12:46:06.633Z",
+    "end": "2021-07-15T12:46:06.648Z",
+    "duration": 15,
     "testsRegistered": 5,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2f622765-9169-48e1-ab52-b5c82057a7fa",
+      "uuid": "584652dc-7d93-49de-a7d6-41886c148489",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0a4734d6-e12e-4e5f-937c-456d695d6bc4",
+          "uuid": "cd9c6220-8f39-41d7-98d5-a264a03284bc",
           "title": "Task1",
           "fullFile": "C:\\Users\\Aliaksandr_Posakhau\\OneDrive - EPAM\\Desktop\\DOCKERTASK\\github-repo\\RM-Dockertask\\tasks\\cycles\\test\\cycles.spec.js",
           "file": "\\tasks\\cycles\\test\\cycles.spec.js",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "expect(forFactorial).to.equal(3628800);",
               "err": {},
-              "uuid": "5aea10da-6889-4800-b67b-3a3618816309",
-              "parentUUID": "0a4734d6-e12e-4e5f-937c-456d695d6bc4",
+              "uuid": "b4ca4700-cd72-486c-ad47-047ef9d1711a",
+              "parentUUID": "cd9c6220-8f39-41d7-98d5-a264a03284bc",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "whileFactorial",
               "fullTitle": "Task1 whileFactorial",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "expect(whileFactorial).to.equal(3628800);",
               "err": {},
-              "uuid": "a63127dd-adf3-459e-a369-25b629535bab",
-              "parentUUID": "0a4734d6-e12e-4e5f-937c-456d695d6bc4",
+              "uuid": "0e49e5d9-301c-40d9-bc98-dedf0494f41d",
+              "parentUUID": "cd9c6220-8f39-41d7-98d5-a264a03284bc",
               "isHook": false,
               "skipped": false
             },
@@ -83,28 +83,28 @@
               "context": null,
               "code": "expect(doFactorial).to.equal(3628800);",
               "err": {},
-              "uuid": "37f08b8f-3f72-48cc-b316-232128e3522c",
-              "parentUUID": "0a4734d6-e12e-4e5f-937c-456d695d6bc4",
+              "uuid": "7357c7ae-bb38-4c1c-bb66-bba85abbb841",
+              "parentUUID": "cd9c6220-8f39-41d7-98d5-a264a03284bc",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5aea10da-6889-4800-b67b-3a3618816309",
-            "a63127dd-adf3-459e-a369-25b629535bab",
-            "37f08b8f-3f72-48cc-b316-232128e3522c"
+            "b4ca4700-cd72-486c-ad47-047ef9d1711a",
+            "0e49e5d9-301c-40d9-bc98-dedf0494f41d",
+            "7357c7ae-bb38-4c1c-bb66-bba85abbb841"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "974f0fa2-9ee9-4d35-8f36-3e093193cfc2",
+          "uuid": "4862b7e6-0b51-4c0b-8d71-24d9fe20b4f0",
           "title": "Task2",
           "fullFile": "C:\\Users\\Aliaksandr_Posakhau\\OneDrive - EPAM\\Desktop\\DOCKERTASK\\github-repo\\RM-Dockertask\\tasks\\cycles\\test\\cycles.spec.js",
           "file": "\\tasks\\cycles\\test\\cycles.spec.js",
@@ -124,15 +124,15 @@
               "context": null,
               "code": "expect(str).to.equal('I love JS');",
               "err": {},
-              "uuid": "7ba99c8a-acec-4ad5-b202-3bcb694f6b97",
-              "parentUUID": "974f0fa2-9ee9-4d35-8f36-3e093193cfc2",
+              "uuid": "dcb6ce30-0522-4016-bb63-5bd2c124512c",
+              "parentUUID": "4862b7e6-0b51-4c0b-8d71-24d9fe20b4f0",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "7ba99c8a-acec-4ad5-b202-3bcb694f6b97"
+            "dcb6ce30-0522-4016-bb63-5bd2c124512c"
           ],
           "failures": [],
           "pending": [],
@@ -143,7 +143,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "069b34de-7d02-4eb2-8f66-0a997264118b",
+          "uuid": "94a6668a-fcfc-401b-8a5d-fff03a6d1afc",
           "title": "Task3",
           "fullFile": "C:\\Users\\Aliaksandr_Posakhau\\OneDrive - EPAM\\Desktop\\DOCKERTASK\\github-repo\\RM-Dockertask\\tasks\\cycles\\test\\cycles.spec.js",
           "file": "\\tasks\\cycles\\test\\cycles.spec.js",
@@ -154,7 +154,7 @@
               "title": "str",
               "fullTitle": "Task3 str",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -163,20 +163,20 @@
               "context": null,
               "code": "expect(totalIncome).to.equal(1335);",
               "err": {},
-              "uuid": "cd9ab9b4-8fbb-49eb-babd-30af5540bcfe",
-              "parentUUID": "069b34de-7d02-4eb2-8f66-0a997264118b",
+              "uuid": "d6d7a103-d0a7-45a4-8a83-9e0640b57e68",
+              "parentUUID": "94a6668a-fcfc-401b-8a5d-fff03a6d1afc",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "cd9ab9b4-8fbb-49eb-babd-30af5540bcfe"
+            "d6d7a103-d0a7-45a4-8a83-9e0640b57e68"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

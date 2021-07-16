@@ -6,7 +6,8 @@
     "test:report": "npm run test:cycles -- --reporter mochawesome",
     "test:variables": "mocha tasks/variables/test/*.spec.js",
     "test:cycles": "mocha tasks/cycles/test/*.spec.js",
-    "test:condition": "mocha tasks/condition/test/*.spec.js"
+    "test:condition": "mocha tasks/condition/test/*.spec.js",
+    "build-image":"docker build --tag rm-dockertask ."
   },
   "repository": {
     "type": "git",

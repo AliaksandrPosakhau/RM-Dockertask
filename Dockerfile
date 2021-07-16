@@ -41,7 +41,7 @@ RUN export JAVA_HOME
 #Install NodeJS
 USER root
 WORKDIR /home/app
-#COPY ./package.json /home/app/package.json
+
 RUN apt-get update
 RUN apt-get -y install curl gnupg
 RUN curl -sL https://deb.nodesource.com/setup_11.x  | bash -
@@ -56,38 +56,23 @@ RUN apt-get -y update
 RUN apt-get -y install google-chrome-stable
 RUN whereis chrome
 
-RUN echo "Docker hometask container is up and running...."
-
 #installing git 
 RUN apt update
 RUN apt install -y git
 RUN apt update
 
 #setting up test project 
-COPY . /
+# Bundle app source
+
 WORKDIR /rm-Dockertask
-
-
-
-
-
-# GitHub
-RUN git config --global url."https://${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}@github.com".insteadOf "ssh://git@github.com:AliaksandrPosakhau/RM-Dockertask.git"
-
-# Create app directory
-WORKDIR /usr/src/app
+COPY . .
+COPY ["package.json", "package-lock.json*", "./"]
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
-COPY package*.json ./
+# COPY package*.json ./
+RUN npm install 
 
-RUN npm install
-# If you are building your code for production
-# RUN npm ci --only=production
-
-# Bundle app source
-COPY . .
-
-EXPOSE 8080
-CMD [ "node", "server.js" ]
+# GitHub
+#RUN git config --global url."https://${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}@github.com".insteadOf "ssh://git@github.com:AliaksandrPosakhau/RM-Dockertask.git"
