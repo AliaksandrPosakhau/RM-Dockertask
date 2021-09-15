@@ -19,4 +19,8 @@ To execute tests please follow those steps below:
     - Build a Docker image basing on its description in Dockerfile;  <p>
     - Run a container based on recently built image; <p>
     - Connect to recently created container and launch test execution in this running container
+       
+       
+       Results of test execution will be stored by this address on local machine(WIN10):
+       \\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes\local-results\_data
   
